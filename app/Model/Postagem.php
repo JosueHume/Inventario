@@ -22,6 +22,7 @@ class Postagem
         return $resultado;
     }
 
+    // Exibe os detalhes do item com um ID em específico
     public static function selecionarPorId($idItem) 
     {
         $conn = Connection::getConn();
@@ -43,6 +44,7 @@ class Postagem
         return $resultado;
     }
 
+    //Função para inserir no banco de dados!
     public static function insert($dadosItem) 
     {
         if (empty($dadosItem['nome']) OR empty($dadosItem['tipo']) OR empty($dadosItem['aquisicao']) OR empty($dadosItem['descricao']))
@@ -68,6 +70,7 @@ class Postagem
             return true;
     }
 
+    //Função para editar no banco de dados!
     public static function update($params) 
     {
         $conn = Connection::getConn();
@@ -90,6 +93,7 @@ class Postagem
             return true;
     }
 
+    //Função para apagar no banco de dados!
     public static function delete($params) 
     {
         $conn = Connection::getConn();

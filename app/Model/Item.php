@@ -1,5 +1,6 @@
 <?php
 
+    // Exibe os detalhes do item:
     class Item 
     {
         public static function selecionarItens($idItem) 

@@ -1,5 +1,6 @@
 <?php
 
+// Gera mensagem de erro ao acessar algum local não autorizado
 class ErroController {
 
     public function index() {

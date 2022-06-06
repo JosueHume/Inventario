@@ -44,6 +44,8 @@ class AdminController {
         echo $conteudo;
     }
 
+
+    // Pega a função insert da classe Postagem
     public function insert() 
     {
         try {
@@ -73,6 +75,7 @@ class AdminController {
         echo $conteudo;
     }
 
+    // Pega a função update da classe Postagem
     public function update($paramId) 
     {
         try {
@@ -87,6 +90,7 @@ class AdminController {
         }
     }
 
+    // Pega a função update da classe Postagem
     public function delete($paramId) 
     {
         try {
