@@ -1,0 +1,20 @@
+
+<section>
+    <h1> Itens na sua coleção: </h1>
+    <br> <div class="row">
+        {% for item in itens %}
+        <div class="column">
+            <div class="card border-dark mb-3">
+                <div class="card">
+                    <img src="app/View/imagens/PS5.PNG" class="card-img-top" style="height: 250px; width: 250px; margin-left: auto; margin-right: auto;">
+                    <h3> <a href="http://localhost/Inventario/?pagina=post&id={{item.id}}"> {{item.nome}} </a> </h3>
+                    <p class="card-text"> {{item.descricao}}</p> 
+                    <a href="http://localhost/Inventario/?pagina=post&id={{item.id}}" class="btn btn-primary" style="margin-bottom: 5px;"> Exibir detalhes </a>
+                    <th> <a class="btn btn-warning" style="margin-bottom: 5px;" href="http://localhost/Inventario/?pagina=admin&metodo=change&id={{item.id}}">Editar</a> </th>
+                    <th> <a class="btn btn-danger" href="http://localhost/Inventario/?pagina=admin&metodo=delete&id={{item.id}}">Deletar</a> </th>
+                 </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div><br>
+</section>

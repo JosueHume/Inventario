@@ -1,0 +1,129 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+
+video {
+    margin-top: -100px;
+    margin-left: -50px;
+}
+
+body {
+    background-color: #000;
+    font-family: 'Nunito', serif;
+}
+
+h1 {
+    color:	#AB8D3F;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    text-shadow: white;
+    margin-top: 50px;
+
+}
+
+h2 {
+  color:	#AB8D3F;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  text-shadow: white;
+  margin-top: 50px;
+
+}
+
+h3 {
+  color:	#AB8D3F;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  text-shadow: white;
+  margin-top: 50px;
+
+}
+
+span {
+    color:	#AB8D3F;
+    font-size: 16px;
+    font-weight: bold;
+    text-shadow: white;
+}
+
+p {
+  color: #AB8D3F;
+  font-size: 16px;
+  font-weight: bold;
+  text-shadow: white;
+}
+
+label {
+    color:	#AB8D3F;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+input {
+    color:	#AB8D3F;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+textarea {
+  color:	#AB8D3F;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+a {
+    color:	#AB8D3F;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+button {
+    font-size: 16px;
+    margin: 0 3px;
+    font-weight: bold;
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  .column {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+  }
+  
+  .row {margin: 0 -5px;}
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+  
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+  }
+
+  .criar {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    text-align: center;
+  }

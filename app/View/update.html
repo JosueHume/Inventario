@@ -1,0 +1,19 @@
+
+<h1> Editar item na coleção: </h1>
+
+<div class="criar">
+    <form method="POST" action="?pagina=home&metodo=update"></form>
+        <input type="hidden" name="id" value="{{id}}">
+        <label for="">Nome: </label> <br>
+        <input type="text" name="nome" value="{{nome}}" required><br><br>
+        <label for="">Tipo: </label> <br>
+        <input type="text" name="tipo" value="{{tipo}}" required><br><br>
+        <label for="">Descrição: </label> <br>
+        <textarea rows="4" cols="50" name="descricao" required> {{descricao}} </textarea><br>
+        <label for="">Adquirido em: </label> <br>
+        <input type="date" name="aquisicao" value="{{aquisicao}}" required><br><br>
+        <input class="btn btn-success btn-lg" type="submit" value="Alterar"></input>
+        <input class="btn btn-primary btn-lg" type="button" value="Voltar" onClick="JavaScript: window.history.back();"></input>
+    </form>
+</div>
+
